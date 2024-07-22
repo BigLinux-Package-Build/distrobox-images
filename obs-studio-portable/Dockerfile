@@ -26,7 +26,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt update \
     libnss-mdns \
     libnss-myhostname \
     libvte-2.9*-common \
-    libvte-common \
     locales \
     lsof \
     man-db \
