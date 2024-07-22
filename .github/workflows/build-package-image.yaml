@@ -18,7 +18,7 @@ jobs:
           RELEASE=obs-studio-portable
           
           echo "RELEASE=$RELEASE" >> $GITHUB_ENV
-          echo "RELEASETAG=23365 >> $GITHUB_ENV
+          echo "RELEASETAG=23365" >> $GITHUB_ENV
           
       - name: Hadolint
         shell: bash -O extglob {0}
